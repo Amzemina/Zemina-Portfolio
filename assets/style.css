@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(244, 237, 246);
+}
+
+header {
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #1e1f36;
+    color: #ffffff;
+}
+
+header h1 {
+    display: flex;
+    flex: 2 1 auto;
+}
+
+header nav {
+    font-size: 20px;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #1e1f36;
+    color:  #ffffff;
+}
+
+
+main section {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20 px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main section h2 {
+    flex: 0 1 auto;
+    min-width: 20%;
+}
+
+#about {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#work {
+    align-items: center;
+
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.featured-card {
+    min-width: 100%
+}
+
+.img-card img {
+    width: 100%;
+}
+
+.img-card {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+#contact {
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 840px) {
+    .img-card {
+        width: 50%;
+    }
+    main section {
+        flex-wrap: nowrap;
+    }
+}
+
+/* @media screen and (min-width: px) {
+     {
+        min-width: 50%;
+    }
+} */
