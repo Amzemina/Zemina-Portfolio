@@ -1,3 +1,7 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 body {
     background-color: rgb(244, 237, 246);
 }
@@ -8,7 +12,6 @@ header {
     align-items: center;
     display: flex;
     padding: 5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #1D1F48;
     color: #ffffff;
 }
@@ -34,6 +37,25 @@ header nav {
     color:  #ffffff;
 }
 
+header nav a:link {
+    color: white;
+    text-decoration: none;
+}
+  
+  
+header nav a:visited {
+    color: white;
+    text-decoration: none;
+  
+}
+  
+  
+header nav a:hover {
+    color: white;
+    text-decoration: underline;
+  
+}
+
 
 main {
     margin: 10px;
@@ -41,7 +63,6 @@ main {
 }
 
 main section {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20 px;
     display: flex;
     flex-wrap: wrap;
@@ -98,6 +119,39 @@ main section h2 {
     flex: 1 1 auto;
 }
 
+.contact-link a:visted {
+    color:#1D1F48;
+    text-decoration: none;
+}
+
+.contact-link a:link {
+    color: #1D1F48;
+    text-decoration: none;
+}
+ 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #1D1F48;
+    height: 64px;
+}
+
+footer a:link {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
 
 @media screen and (min-width: 840px) {
     .img-card {
