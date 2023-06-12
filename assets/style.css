@@ -4,7 +4,7 @@ body {
 
 header {
     height: 128px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     display: flex;
     padding: 5px;
@@ -17,15 +17,18 @@ header img {
     height: 100%;
 }
 
-header h1 {
-    flex: 2 1 auto;
+.header-title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    align-items: center;
 }
 
 header nav {
     font-size: 20px;
     display: flex;
     flex: 1 1 auto;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     font-family: sans-serif;
     color:  #ffffff;
