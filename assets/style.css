@@ -3,16 +3,21 @@ body {
 }
 
 header {
+    height: 128px;
     justify-content: space-between;
+    align-items: center;
     display: flex;
-    padding: 20px;
+    padding: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #1e1f36;
+    background-color: #1D1F48;
     color: #ffffff;
 }
 
+header img {
+    height: 100%;
+}
+
 header h1 {
-    display: flex;
     flex: 2 1 auto;
 }
 
@@ -23,10 +28,14 @@ header nav {
     justify-content: space-between;
     align-items: center;
     font-family: sans-serif;
-    background-color: #1e1f36;
     color:  #ffffff;
 }
 
+
+main {
+    margin: 10px;
+    padding: 10px;
+}
 
 main section {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -73,9 +82,19 @@ main section h2 {
 
 
 #contact {
-    justify-content: space-between;
     align-items: center;
 }
+
+.contact-link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contact-link a {
+    flex: 1 1 auto;
+}
+
 
 @media screen and (min-width: 840px) {
     .img-card {
